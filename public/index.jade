@@ -1,0 +1,65 @@
+extends _landing
+
+block content
+  section.container#main
+    section.box.special
+      header.major
+        h2 
+          | Introducing the ultimate mobile app
+          br
+          | for doing stuff with your phone
+        p 
+          | Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare
+          br
+          | adipiscing nunc adipiscing. Condimentum turpis massa.
+      span.image.featured: img(src="/images/pic01.jpg" alt="")
+
+    section.box.special.features
+      .features-row
+        section
+          span.icon.major.fa-bolt.accent2
+          h3 Magna etiam
+          p Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+        section
+          span.icon.major.fa-area-chart.accent3
+          h3 Ipsum dolor
+          p Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+      .features-row
+        section
+          span.icon.major.fa-cloud.accent4
+          h3 Sed feugiat
+          p Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+        section
+          span.icon.major.fa-lock.accent5
+          h3 Enim phasellus
+          p Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+        
+    .row
+      div(class="6u 12u(2)")
+        section.box.special
+          span.image.featured: img(src="/images/pic02.jpg" alt="")
+          h3 Sed lorem adipiscing 
+          p Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+          ul.actions
+            li: a.button.alt(href="#") Learn More
+
+      div(class="6u 12u(2)")
+        section.box.special
+          span.image.featured 
+            img(src="/images/pic03.jpg" alt="")
+          h3 Accumsan integer
+          p Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+          ul.actions
+            li: a.button.alt(href="#") Learn More
+
+block cta
+  section#cta
+    h2 Sign up for beta access
+    p Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.
+
+    form
+      .row.uniform.half.collapse-at-2
+        .8u
+          input#email(type="email" name="email" placeholder="Email Address")
+        .4u
+          input.fit(type="submit" value="Sign Up")

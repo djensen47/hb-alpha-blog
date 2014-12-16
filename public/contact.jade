@@ -1,0 +1,26 @@
+extends _plain
+
+block content
+  section.container#main(class="75%")
+    header
+      h2 Contact Us
+      p Tell us what you think about our little operation.
+    .box
+      form(method="post" action="#")
+        .row.uniform(class="50%")
+          .6u(class="12u(3)")
+            input(type="text" name="name" id="name" value="" placeholder="Name")
+          .6u(class="12u(3)")
+            input(type="email" name="email" id="email" value="" placeholder="Email")
+        .row.uniform(class="50%")
+          .12u
+            input(type="text" name="subject" id="subject" value="" placeholder="Subject")
+        .row.uniform(class="50%")
+          .12u
+            textarea(name="message" id="message" placeholder="Enter your message" rows="6")
+        .row.uniform
+          .12u
+            ul.actions.align-center
+              li: input(type="submit" value="Send Message")
+
+  

@@ -1,0 +1,21 @@
+{
+  "index": {
+    "layout": false,
+    "title": "Alpha Blog",
+    "tagline": "A blog made with HTML5UP Alpha"
+  },
+  "an-update": {
+    "title": "An Update About Alpha Blog",
+    "tagline": "Recent updates on the Alpha blog",
+    "featuredImage": "/images/pic03.jpg",
+    "date": "December 15, 2014",
+    "author": "Blog Author"
+  },
+  "first-blog": {
+    "title": "The First Blog Post",
+    "tagline": "Welcome to our brand new blog",
+    "featuredImage": "/images/pic04.jpg",
+    "date": "November 15, 2014",
+    "author": "Blog Author"
+  }
+}
