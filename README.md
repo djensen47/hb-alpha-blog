@@ -1,4 +1,4 @@
-# HarpJS boilerplate for the HTML5UP theme Alpha
+# HarpJS boilerplate for HTML5UP Alpha with a blog
 
 This version of the Alpha [HTML5 UP](http://html5up.net) template has been modified to work with [Harp JS](http://harpjs.com/) as a [boilerplate](http://harpjs.com/blog/v0-12-1-boilerplates).
 
