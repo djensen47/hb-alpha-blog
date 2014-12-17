@@ -1,7 +1,5 @@
 extends ../_main
 
-
-
 block body
   - function excerpt(content) {
     - if(!content || content.indexOf("</p>") == -1) return;
@@ -17,8 +15,13 @@ block body
         h2= title
         p= description
 
-      for post, slug in public.blog._data
+      //- The first two entries in the _data fiel should be index and archives, therefore 
+      //- start at index 2 and go to 12, slice is not inclusive for the end argument.
+      - var numPosts = 5;
+      - var slugs = Object.keys(public.blog._data).slice(2, 2+numPosts+1);
+      for slug in slugs
         if ['index', 'feed', 'archives'].indexOf(slug) == -1
+          - var post = public.blog._data[slug];
           section.box
             header
               h3
@@ -31,3 +34,6 @@ block body
               =excerpt(partial(slug))
             ul.actions(style="text-align: right")
               li: a.button.special(href="/blog/#{slug}.html") Read More
+
+      ul.actions(style="text-align:center; margin-top: 5em;")
+        li: a.button.default(href="/blog/archives.html") View Blog Archives
