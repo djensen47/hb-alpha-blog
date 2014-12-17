@@ -1,5 +1,7 @@
 {
   "globals": {
-    "title": "Alpha by HTML5 UP"
+    "title": "Alpha by HTML5 UP",
+    "description": "A HarpJS website and blog with the HTML5 Up theme Alpha",
+    "keywords": "website, blog"
   }
 }
