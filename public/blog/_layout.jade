@@ -13,13 +13,10 @@ block body
       header
         h2= title
         p
-          //- = tagline
-          //- br
           = author
           | &nbsp;&middot;&nbsp; 
           = date
       .box
         if featuredImage
           span.image.featured: img(src="#{featuredImage}" alt="#{title} Image")
-        h3(style="text-align: center;")= tagline
         != yield
