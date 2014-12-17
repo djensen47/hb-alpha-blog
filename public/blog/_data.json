@@ -2,7 +2,11 @@
   "index": {
     "layout": false,
     "title": "Alpha Blog",
-    "tagline": "A blog made with HTML5UP Alpha",
+    "description": "A blog made with HTML5UP Alpha"
+  },
+  "feed": {
+    "layout": false,
+    "title": "Alpha Blog",
     "description": "A blog made with HTML5UP Alpha"
   },
   "an-update": {

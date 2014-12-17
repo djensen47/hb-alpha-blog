@@ -2,6 +2,7 @@
   "globals": {
     "title": "Alpha by HTML5 UP",
     "description": "A HarpJS website and blog with the HTML5 Up theme Alpha",
-    "keywords": "website, blog"
+    "keywords": "website, blog",
+    "url": "http://localhost:9000"
   }
 }

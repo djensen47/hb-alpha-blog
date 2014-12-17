@@ -15,10 +15,10 @@ block body
     section.container#main
       header
         h2= title
-        p= tagline
+        p= description
 
       for post, slug in public.blog._data
-        if slug !== 'index'
+        if slug !== 'index' && slug !== 'feed'
           section.box
             header
               h3
