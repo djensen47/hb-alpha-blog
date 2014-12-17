@@ -1,0 +1,28 @@
+extends ../_main
+
+block body
+  body
+    // Header
+    != partial("../_header", {headerClass: "skel-layers-fixed"})
+
+    // Main
+    section.container#main
+      header
+        h2= title
+        p= description
+
+      section.box
+        .table-wrapper
+          table
+            thead
+              tr
+                th Title
+                th Author
+                th Date
+            tbody
+              for post, slug in public.blog._data
+                if ['index', 'feed', 'archives'].indexOf(slug) == -1
+                  tr
+                    td: a(href="/blog/#{slug}.html")= post.title
+                    td= post.author
+                    td= post.date

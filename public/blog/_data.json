@@ -4,6 +4,11 @@
     "title": "Alpha Blog",
     "description": "A blog made with HTML5UP Alpha"
   },
+  "archives": {
+    "layout": false,
+    "title": "Alpha Blog Archives",
+    "description": "Complete archive listing of all Alpha Blog posts."
+  },
   "feed": {
     "layout": false,
     "title": "Alpha Blog",

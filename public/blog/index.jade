@@ -18,7 +18,7 @@ block body
         p= description
 
       for post, slug in public.blog._data
-        if slug !== 'index' && slug !== 'feed'
+        if ['index', 'feed', 'archives'].indexOf(slug) == -1
           section.box
             header
               h3
