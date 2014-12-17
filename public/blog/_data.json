@@ -21,6 +21,34 @@
     "date": "December 15, 2014",
     "author": "Blog Author"
   },
+  "fifth-blog": {
+    "title": "Fifth Blog Post",
+    "description": "The fifth blog post.",
+    "featuredImage": "/images/pic04.jpg",
+    "date": "November 19, 2014",
+    "author": "Blog Author"
+  },
+  "fourth-blog": {
+    "title": "Fourth Blog Post",
+    "description": "The fourth blog post.",
+    "featuredImage": "/images/pic04.jpg",
+    "date": "November 18, 2014",
+    "author": "Blog Author"
+  },
+  "third-blog": {
+    "title": "Third Blog Post",
+    "description": "The third blog post.",
+    "featuredImage": "/images/pic04.jpg",
+    "date": "November 17, 2014",
+    "author": "Blog Author"
+  },
+  "second-blog": {
+    "title": "Second Blog Post",
+    "description": "The second blog post.",
+    "featuredImage": "/images/pic04.jpg",
+    "date": "November 16, 2014",
+    "author": "Blog Author"
+  },
   "first-blog": {
     "title": "The First Blog Post",
     "description": "Welcome to our brand new blog",
